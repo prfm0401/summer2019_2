@@ -1,0 +1,6 @@
+development:
+  adapter: mysql2
+  database: sinatra_blog_app
+  username: miyuki
+  password: perfume
+  encoding: utf8

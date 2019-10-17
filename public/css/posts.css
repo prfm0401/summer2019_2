@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+#upimage {
+  height: 400px;
+  margin: 23px auto 0px;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+#upimage img, .img {
+  top: 25px;
+  position: center;
+}

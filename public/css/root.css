@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+.ttl{
+    margin: px 90px 30px 90px;
+	padding: 0 0 0 0;
+	line-height: 1.5;
+    text-align: center;
+    color: #333;
+}
+#photo {
+    height: 400px;
+    margin: 23px auto 0px;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+#photo img {
+    top: 25px;
+    position: center;
+}
+#what {
+    margin-bottom: 50px;
+    padding: 7px 30px;
+    display:flex;
+    background-color: #84cfcf;
+}
+#what section {
+    margin: 7px 43px;
+}
+#what section.last {
+	margin-bottom: 0;
+}
+#what section .icon {
+	margin-bottom: 20px;
+	text-align: center;
+}

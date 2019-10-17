@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+/* 全てのページに適用 */
+#logo{ 
+    margin: 30px 90px 20px 90px;
+    padding: 0 0 0 0;
+    line-height: 0;
+    text-align: center;
+  }
+img {
+    border-style: none;
+}
+#back{
+    text-align: center;
+}
+/* すべてのページに適用 - navまわり - */
+ul.nav {
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	background-color: #1b2538;
+}
+ul.nav li {
+	float: right;
+}
+ul.nav li a {
+	display: block;
+	padding: 14px 16px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+}
+ul.nav li a:hover:not(.active) {
+	background-color: #2a4b8f;
+}
+ul.nav li a.active {
+	background-color: #119696;
+}
+ul.nav li a.active:hover {
+	background-color: #196464;
+}
+@media screen and (max-width: 480px) {
+	ul.topnav li.right, ul.topnav li {
+		float: none;
+	}
+}
